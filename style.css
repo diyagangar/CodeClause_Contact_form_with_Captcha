@@ -1,0 +1,43 @@
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fa790faf;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.captcha {
+    display: flex;
+    align-items: center;
+}
+
+#captchaText {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

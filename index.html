@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Form with CAPTCHA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm" method="post" action="">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <div class="captcha">
+                <input type="text" id="captchaInput" name="captchaInput" placeholder="Enter CAPTCHA" required>
+                <span id="captchaText"></span>
+            </div>
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
